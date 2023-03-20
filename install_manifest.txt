@@ -1,0 +1,13 @@
+/home/user/jianfeng/susi-appper-c/out/lib/libmapper-core.so.1.0.0
+/home/user/jianfeng/susi-appper-c/out/lib/libmapper-core.so
+/home/user/jianfeng/susi-appper-c/out/lib/cmake/mapper-core-c/mapper-core-cConfig.cmake
+/home/user/jianfeng/susi-appper-c/out/lib/cmake/mapper-core-c/mapper-core-cConfig-noconfig.cmake
+/home/user/jianfeng/susi-appper-c/out/bin/susi-mapper
+/home/user/jianfeng/susi-appper-c/out/lib/libpaho-mqtt3a.so.1
+/home/user/jianfeng/susi-appper-c/out/lib/libpaho-mqtt3a.so.1.3.10
+/home/user/jianfeng/susi-appper-c/out/lib/libpaho-mqtt3as.so.1
+/home/user/jianfeng/susi-appper-c/out/lib/libpaho-mqtt3as.so.1.3.10
+/home/user/jianfeng/susi-appper-c/out/lib/libpaho-mqtt3c.so.1
+/home/user/jianfeng/susi-appper-c/out/lib/libpaho-mqtt3c.so.1.3.10
+/home/user/jianfeng/susi-appper-c/out/lib/libpaho-mqtt3cs.so.1
+/home/user/jianfeng/susi-appper-c/out/lib/libpaho-mqtt3cs.so.1.3.10
