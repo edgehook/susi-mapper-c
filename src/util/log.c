@@ -1,6 +1,16 @@
 #include <stdio.h>
-
+#include <stdlib.h>
+#include <stdarg.h>
+#include <string.h>
+#include <time.h>
 #include <util/log.h>
+
+#if defined(_WIN32) || defined(_WIN64)
+	#include <windows.h>
+	#define snprintf _snprintf
+	//#pragma comment(lib, "legacy_stdio_definitions.lib")
+#endif
+
 #include <util/util.h>
 
 typedef void (*PRINTF_LOG_CALLBACK_HANDLER)(int level, char *format, va_list args);

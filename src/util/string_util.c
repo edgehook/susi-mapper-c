@@ -5,6 +5,7 @@
 #include <time.h>
 #if defined(_WIN32) || defined(_WIN64)
 	#include <windows.h>
+	#define snprintf _snprintf
 #else
 	#include <sys/time.h>
 #endif

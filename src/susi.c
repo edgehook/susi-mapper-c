@@ -8,6 +8,9 @@
 #include <util/json_util.h>
 #include "Susi4.h"
 
+#if defined(_WIN32) || defined(_WIN64)
+#pragma   comment(lib,"..\\..\\susi_library\\Susi4.lib") 
+#endif
 
 static const char *infoValStr[] = {
 	"Spec version",
@@ -161,7 +164,7 @@ int susi_get_board_information(SusiId_t id,void * pvalue)
 int susi_library_init()
 {
 	SusiStatus_t status;
-	uint32_t op; 
+
 	int ret = 0;
 
 	status = SusiLibInitialize();
@@ -181,11 +184,11 @@ int susi_library_init()
 		return -1;
 	}
 	infof("SUSI library initialize successful\n");
+	return 0;
 }
 
 int susi_get_property_value(int funcid, int id, void* pvalue)
 {
-	uint32_t tmpvalue;;
 	switch (funcid){
 	case  func_boardinfor:
 	susi_get_board_information(id,pvalue);
@@ -202,5 +205,6 @@ int susi_get_property_value(int funcid, int id, void* pvalue)
 	default:
 	break;
 	}
+	return 0;
 }
 
